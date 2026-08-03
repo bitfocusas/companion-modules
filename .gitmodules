@@ -1,0 +1,6 @@
+[submodule "modules/companion-module-riedel-medianetworks"]
+	path = modules/companion-module-riedel-medianetworks
+	url = https://github.com/bitfocus/companion-module-riedel-medianetworks.git
+[submodule "modules/companion-module-generic-stopwatch"]
+	path = modules/companion-module-generic-stopwatch
+	url = https://github.com/bitfocus/companion-module-generic-stopwatch.git
