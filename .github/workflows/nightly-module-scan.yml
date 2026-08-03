@@ -1,0 +1,48 @@
+name: Nightly companion-module scan
+
+# Rebuilds package.json every night with the latest release of every
+# companion-module-* repo in the bitfocus org, then commits the change so
+# Aikido's GitHub integration rescans the new refs for supply chain issues.
+
+on:
+  schedule:
+    # 03:17 UTC nightly (offset from the top of the hour to dodge cron congestion)
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-module-scan
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Regenerate module dependencies
+        env:
+          # Default token has read access to public bitfocus repos/releases.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bun run update-modules
+
+      - name: Commit updated package.json
+        run: |
+          if git diff --quiet -- package.json; then
+            echo "No dependency changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package.json
+          git commit -m "chore: nightly companion-module dependency refresh"
+          git push
