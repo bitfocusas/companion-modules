@@ -512,7 +512,6 @@
     "companion-module-orei-matrix": "github:bitfocus/companion-module-orei-matrix#v2.1.2",
     "companion-module-orfast-ndi": "github:bitfocus/companion-module-orfast-ndi#v1.0.0",
     "companion-module-oscidi-oscidi": "github:bitfocus/companion-module-oscidi-oscidi#v0.1.2",
-    "companion-module-osee-gostream-series": "github:bitfocus/companion-module-osee-gostream-series#v2.0.0",
     "companion-module-panasonic-ak-hrp1000": "github:bitfocus/companion-module-panasonic-ak-hrp1000#v1.0.2",
     "companion-module-panasonic-av-hs6000": "github:bitfocus/companion-module-panasonic-av-hs6000#v1.1.0",
     "companion-module-panasonic-av-hsw10": "github:bitfocus/companion-module-panasonic-av-hsw10#v1.0.1",
