@@ -316,7 +316,7 @@
     "companion-module-generic-ssh": "github:bitfocus/companion-module-generic-ssh#v1.4.0",
     "companion-module-generic-stopwatch": "github:bitfocus/companion-module-generic-stopwatch#v1.3.1",
     "companion-module-generic-swp02": "github:bitfocus/companion-module-generic-swp02#v1.2.4",
-    "companion-module-generic-swp08": "github:bitfocus/companion-module-generic-swp08#v4.0.6",
+    "companion-module-generic-swp08": "github:bitfocus/companion-module-generic-swp08#v4.1.0",
     "companion-module-generic-syslog-client": "github:bitfocus/companion-module-generic-syslog-client#v2.0.0",
     "companion-module-generic-tcp-serial": "github:bitfocus/companion-module-generic-tcp-serial#v2.6.0",
     "companion-module-generic-tcp-udp": "github:bitfocus/companion-module-generic-tcp-udp#v2.2.1",
