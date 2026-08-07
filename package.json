@@ -675,6 +675,7 @@
     "companion-module-stagetimerio-api": "github:bitfocus/companion-module-stagetimerio-api#v2.6.1",
     "companion-module-streamlabs-desktop": "github:bitfocus/companion-module-streamlabs-desktop#v1.0.1",
     "companion-module-studiocoast-vmix": "github:bitfocus/companion-module-studiocoast-vmix#v5.0.3",
+    "companion-module-stype-realline": "github:bitfocus/companion-module-stype-realline#v2.0.0",
     "companion-module-symetrix-dsp": "github:bitfocus/companion-module-symetrix-dsp#v2.0.1",
     "companion-module-synaccess-netbooter-bseries": "github:bitfocus/companion-module-synaccess-netbooter-bseries#v1.0.2",
     "companion-module-syncer-live": "github:bitfocus/companion-module-syncer-live#v1.0.0",
