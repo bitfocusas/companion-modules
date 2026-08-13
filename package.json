@@ -109,7 +109,7 @@
     "companion-module-barco-matrixpro": "github:bitfocus/companion-module-barco-matrixpro#v1.1.0",
     "companion-module-barco-pds": "github:bitfocus/companion-module-barco-pds#v2.0.1",
     "companion-module-barco-pulse": "github:bitfocus/companion-module-barco-pulse#v2.3.0",
-    "companion-module-base": "github:bitfocus/companion-module-base#companion-module-base-v2.1.2",
+    "companion-module-base": "github:bitfocus/companion-module-base#companion-module-host-v1.1.2",
     "companion-module-baserow-baserow": "github:bitfocus/companion-module-baserow-baserow#v1.0.1",
     "companion-module-bbc-raven": "github:bitfocus/companion-module-bbc-raven#v2.1.1",
     "companion-module-beaware-conferencecaptioning": "github:bitfocus/companion-module-beaware-conferencecaptioning#v1.0.4",
