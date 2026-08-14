@@ -764,7 +764,7 @@
     "companion-module-vizio-smartcast": "github:bitfocus/companion-module-vizio-smartcast#v2.0.2",
     "companion-module-vizrt-tcp-engine-trio": "github:bitfocus/companion-module-vizrt-tcp-engine-trio#v1.0.0",
     "companion-module-voicemod-api": "github:bitfocus/companion-module-voicemod-api#v1.1.4",
-    "companion-module-vrchat-midi-multicammixer": "github:bitfocus/companion-module-vrchat-midi-multicammixer#v1.0.7",
+    "companion-module-vrchat-midi-multicammixer": "github:bitfocus/companion-module-vrchat-midi-multicammixer#v1.0.8",
     "companion-module-vystem-api": "github:bitfocus/companion-module-vystem-api#v1.0.5",
     "companion-module-vyv-photon": "github:bitfocus/companion-module-vyv-photon#v2.1.0",
     "companion-module-wakemedia-stagetime": "github:bitfocus/companion-module-wakemedia-stagetime#v1.0.0",
