@@ -315,7 +315,7 @@
     "companion-module-generic-rss-client": "github:bitfocus/companion-module-generic-rss-client#v1.0.1",
     "companion-module-generic-sacn": "github:bitfocus/companion-module-generic-sacn#v3.0.3",
     "companion-module-generic-smtp": "github:bitfocus/companion-module-generic-smtp#v1.2.1",
-    "companion-module-generic-snmp": "github:bitfocus/companion-module-generic-snmp#v3.1.1",
+    "companion-module-generic-snmp": "github:bitfocus/companion-module-generic-snmp#v3.2.0",
     "companion-module-generic-speedtest": "github:bitfocus/companion-module-generic-speedtest#v2.0.1",
     "companion-module-generic-ssh": "github:bitfocus/companion-module-generic-ssh#v1.4.0",
     "companion-module-generic-stopwatch": "github:bitfocus/companion-module-generic-stopwatch#v1.3.1",
