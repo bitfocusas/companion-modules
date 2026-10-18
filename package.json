@@ -576,7 +576,7 @@
     "companion-module-purelink-pt-ma-hd44m": "github:bitfocus/companion-module-purelink-pt-ma-hd44m#v1.0.4",
     "companion-module-pushover-api": "github:bitfocus/companion-module-pushover-api#v1.0.3",
     "companion-module-pynch-nexa": "github:bitfocus/companion-module-pynch-nexa#v1.11.1",
-    "companion-module-qsys-remote-control": "github:bitfocus/companion-module-qsys-remote-control#v3.2.6",
+    "companion-module-qsys-remote-control": "github:bitfocus/companion-module-qsys-remote-control#v4.0.1",
     "companion-module-quicklink-studiopro": "github:bitfocus/companion-module-quicklink-studiopro#v1.0.1",
     "companion-module-radiodj-rest": "github:bitfocus/companion-module-radiodj-rest#v2.0.2",
     "companion-module-raspberry-gpio": "github:bitfocus/companion-module-raspberry-gpio#v1.3.4",
